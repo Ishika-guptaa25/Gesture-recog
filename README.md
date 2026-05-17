@@ -1,6 +1,7 @@
 # AR Hand Effects Generator
 
-**Real-time hand detection with visual effects 
+**A real-time computer vision project that detects hand movements using MediaPipe and applies interactive AR visual effects. Built with Python and OpenCV, this application supports gesture recognition, animated particle effects, glowing trails, neon effects, and customizable color palettes.**
+
 ## Features
 
 Real-time hand detection (2 hands)
