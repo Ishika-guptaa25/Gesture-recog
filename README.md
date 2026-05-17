@@ -1,7 +1,6 @@
 # AR Hand Effects Generator
 
-**Real-time hand detection with visual effects - Single file application**
-
+**Real-time hand detection with visual effects 
 ## Features
 
 Real-time hand detection (2 hands)
