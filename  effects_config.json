@@ -1,0 +1,80 @@
+{
+  "effects": {
+    "particles": {
+      "enabled": true,
+      "intensity": 0.8,
+      "max_particles": 100,
+      "particle_lifetime": 30,
+      "spawn_rate": 5
+    },
+    "trails": {
+      "enabled": true,
+      "intensity": 0.7,
+      "trail_length": 30,
+      "thickness_range": [2, 5]
+    },
+    "glow": {
+      "enabled": true,
+      "intensity": 0.8,
+      "radius": 50,
+      "blur_amount": 5
+    },
+    "pixelate": {
+      "enabled": true,
+      "intensity": 0.6,
+      "region_size": 50,
+      "pixel_size": 5
+    },
+    "neon": {
+      "enabled": true,
+      "intensity": 0.9,
+      "outline_thickness": 5,
+      "glow_strength": 0.7
+    }
+  },
+  "palettes": {
+    "neon": {
+      "colors": [[0, 255, 255], [255, 0, 255], [255, 255, 0], [0, 255, 0]],
+      "description": "Bright neon colors"
+    },
+    "fire": {
+      "colors": [[0, 0, 255], [0, 165, 255], [0, 255, 255], [0, 255, 0]],
+      "description": "Fire gradient colors"
+    },
+    "ice": {
+      "colors": [[255, 128, 0], [0, 255, 255], [255, 255, 255], [0, 200, 255]],
+      "description": "Cool ice colors"
+    },
+    "pastel": {
+      "colors": [[255, 179, 198], [255, 223, 186], [255, 255, 200], [186, 255, 201]],
+      "description": "Soft pastel colors"
+    }
+  },
+  "gestures": {
+    "peace_sign": {
+      "threshold": 0.8,
+      "effect": "particles",
+      "action": "burst_effect"
+    },
+    "thumbs_up": {
+      "threshold": 0.75,
+      "effect": "glow",
+      "action": "approve"
+    },
+    "pointing": {
+      "threshold": 0.8,
+      "effect": "trail",
+      "action": "direction"
+    },
+    "open_palm": {
+      "threshold": 0.7,
+      "effect": "neon",
+      "action": "expand"
+    },
+    "fist": {
+      "threshold": 0.75,
+      "effect": "pixelate",
+      "action": "compress"
+    }
+  }
+}
