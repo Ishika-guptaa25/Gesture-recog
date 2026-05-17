@@ -1,39 +1,13 @@
-# Virtual Environment
 venv/
 env/
-ENV/
-
-# Python cache
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-
-# IDE
+*.pyc
 .vscode/
 .idea/
-*.swp
-*.swo
-*~
-
-# Project files
-*.log
-.cache/
-screenshots/
-*.pyc
 .DS_Store
-
-# Distribution
+*.log
+screenshots/
+.cache/
+*.egg-info/
 build/
 dist/
-*.egg-info/
-.eggs/
-
-# Database
-*.db
-*.sqlite
-
-# Environment variables
-.env
-.env.local
